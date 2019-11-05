@@ -12,12 +12,14 @@ def directors_totals(nds)
   #director iterator
   director_element = 0
   #iterate through directors
-  while director_element < directors_database.length do
+  while director_element < nds.length do
     #add director/gross pay to result hash
+    result["#{nds[director_element][:name]}"] = gross_for_director(nds[director_element])
     #increase director iterator
     director_element += 1
   end
-  
+  #return results hash
+  return results
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
