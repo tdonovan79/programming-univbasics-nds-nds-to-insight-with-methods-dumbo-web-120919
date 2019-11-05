@@ -16,10 +16,7 @@ end
 def gross_for_director(director_data)
   #total gross for director
   director_total = 0
-  #director iterator
-  director_element = 0
-  #iterate through directors
-  while director_element < directors_database.length do
+  
     #movie iterator
     movie_element = 0
     #iterate through movies
