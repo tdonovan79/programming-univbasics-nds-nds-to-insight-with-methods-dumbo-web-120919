@@ -19,7 +19,7 @@ def directors_totals(nds)
     director_element += 1
   end
   #return results hash
-  return results
+  return result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
