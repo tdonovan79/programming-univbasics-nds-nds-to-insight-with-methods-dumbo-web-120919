@@ -32,7 +32,7 @@ def gross_for_director(director_data)
   #iterate through movies
   while movie_element < director_data[:movies].length do
     #add movie gross to total for director
-    director_total += director_data[:movies][movie_element][:world_wide_gross]
+    director_total += director_data[:movies][movie_element][:worldwide_gross]
     #increase movie iterator
     movie_element += 1
   end
